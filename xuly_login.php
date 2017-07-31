@@ -1,5 +1,5 @@
 <?php
-	$conn =  mysql_connect('localhost','skipperhoa','0975595084') or die("kết nối không thành công!");
+	$conn =  mysql_connect('localhost','root','') or die("kết nối không thành công!");
   //select database
   mysql_select_db('basic_nodejs',$conn);
   mysql_query("set names 'utf8'");
